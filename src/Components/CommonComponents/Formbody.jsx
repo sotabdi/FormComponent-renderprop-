@@ -5,6 +5,7 @@ const Formbody = ({
   inputFeildArr,
   handleInput,
   handleSubmit,
+  btnTxt,
   err,
 }) => {
   return (
@@ -33,10 +34,10 @@ const Formbody = ({
           onClick={handleSubmit}
           className="w-full font-semibold text-xl text-white bg-primaryColor rounded-[86px] py-5 mt-[15px]"
         >
-          Sign up
+          {btnTxt}
         </button>
       </div>
-    </div>
+    </div> 
   );
 };
 

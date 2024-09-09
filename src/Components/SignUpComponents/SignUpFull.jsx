@@ -79,6 +79,7 @@ const SignUpFull = () => {
             handleSubmit={() => {
               handleSubmit(userInfo, seterr);
             }}
+            btnTxt={'Sign Up'}
             err={err}
           />
         )}
